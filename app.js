@@ -12,6 +12,10 @@ app.get("/example", function(req, res){
     res.render("example")
 })
 
+app.get("/fullpage", function(req, res){
+    res.render("fullpage");
+});
+
 app.listen(8080, function(){
     console.log("Server connected")
 });

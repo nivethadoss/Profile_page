@@ -1,7 +1,8 @@
-.section{
-height: 100%;
-width: 100%
-}
+ .section{
+        font-size: 6em;
+        text-align: center;
+    }
+
 
 #fullpage{
 height: 100vh;
