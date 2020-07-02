@@ -2,21 +2,9 @@
     <!DOCTYPE html>
     <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="vendors/jquery.easings.min.js"></script>
-        <script type="text/javascript" src="jquery.fullPage.js"></script>
-          
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $('#fullpage').fullpage({
-                    sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#000'],
-                });
-            });
-        </script>
-
-     
+        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css" />
+       
         <style>
             .section{
                 font-size: 6em;
@@ -26,17 +14,38 @@
     </head>
      
     <body>
+
+
         <div id="fullpage">
             <div class="section">Section 1</div>
             <div class="section">
-                <div class="slide">Section 2 Slide 1</div>
-                <div class="slide">Section 2 Slide 2</div>
-                <div class="slide">Section 2 Slide 3</div>
+                <div class="slide">Experience 1</div>
+                <div class="slide">Experience 2</div>
+                <div class="slide">Experience 3</div>
             </div>
             <div class="section">Section 3</div>
-        </div>            
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="vendors/jquery.easings.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script> 
+        <!-- <script type = "text/javascript" src="script.js"></script> -->
+           
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#fullpage').fullpage({
+                    sectionsColor: ['#f2f2f2',  '#4BBFC3', '#7BAABE' ],
+                });
+            });
+        </script>
+        
     </body>
     </html>
+       
+       
 
-   
+    
+
+   <!--  'whitesmoke', '#000', '#4BBFC3', '#7BAABE'-->
    
