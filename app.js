@@ -5,15 +5,7 @@ app.set('view engine', 'ejs');
 
 
 app.get("/", function(req, res){
-    res.render("home")
-});
-
-app.get("/example", function(req, res){
-    res.render("example")
-})
-
-app.get("/fullpage", function(req, res){
-    res.render("fullpage");
+    res.render("index")
 });
 
 app.listen(8080, function(){
